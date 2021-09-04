@@ -1,0 +1,227 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+/********************MENU*********************/
+
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+ul li a{
+   text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+
+header{
+    background: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff
+    
+}
+
+header .list-items{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu{
+    justify-content: space-between;
+}
+.list-items li a{
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+/**************APRESENTACAO************/
+
+.apresentacao{
+    height: 70vh;
+    align-items: center;
+    justify-content:space-between ;
+    min-height: 200px;
+}
+
+.apresentacao h2{
+    color:#122a57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.apresentacao a{
+    background: #122a57;
+    color: #fff;
+    padding: 5px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+}
+
+
+/***********************QUEM SOMOS*************************/
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.ok{
+    margin-top: 10px;
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 45px;
+    width: 5px;
+    margin-right: 5px;
+    background: #122A57;
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.container-externo{
+    background: #122A57;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+/*****************SERVIÇOS******************/
+#Serviço{
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.list-services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-services .item-service{
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+#Serviço h2{
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin: auto;
+
+    font-size: 40px;
+}
+.move{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.list-services a{
+    background: #fff;
+    color: #122A57;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 33%;
+}
+.list-services img{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    
+
+}
+
+/******************PLANOS******************/
+#planos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+#planos .itens{
+    padding: 5px;
+    border: 2px solid #122a57;
+    color: #122a57;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+#planos .itens ul li{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: #122a57;
+}
+#planos  h2{
+    border: 2px solid #122a57;
+    background: #122a57;
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+/*marcadores*/
+
+
+/*rodapé*/
+.rodape{
+    color:#122a57;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
